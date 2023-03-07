@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-for i in "abcdefghijklmnopqrstuvwxyz":
-    if i == "q" or i == "e":
+for i in range(97, 123):
+    if chr(i) == "q" or chr(i) == "e":
         continue
     else:
-        print(i, end="")
+        print(chr(i), end="")
